@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c29e6d-d027-40ae-809b-8cf480d10302" name="Default" comment="Remove scaffo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="app/views/pages/about.html.erb" />
     <ignored path=".idea/dataSources/bbb9de8f-71f4-4157-a581-4cbf203bcc5b.xml" />
@@ -71,16 +72,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,12 +101,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -185,6 +189,7 @@
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -284,7 +289,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/routes.rb&#10;data&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="read&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/README.md&#10;routes&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/routes.rb&#10;data&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/database.yml" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunDashboard">
@@ -416,7 +421,7 @@
       <option name="presentableId" value="Default" />
       <updated>1515874166911</updated>
       <workItem from="1515874169941" duration="6011000" />
-      <workItem from="1516040258417" duration="9176000" />
+      <workItem from="1516040258417" duration="9796000" />
     </task>
     <task id="LOCAL-00001" summary="Adds scaffolding for Blog feature">
       <created>1515879904717</created>
@@ -450,7 +455,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15187000" />
+    <option name="totallyTimeSpent" value="15807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,6 +696,17 @@
         <state relative-caret-position="240">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
