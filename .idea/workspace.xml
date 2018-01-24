@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c29e6d-d027-40ae-809b-8cf480d10302" name="Default" comment="Remove scaffo">
+      <change beforePath="$PROJECT_DIR$/.idea/syreeta_thomas_portfolio.iml" afterPath="$PROJECT_DIR$/.idea/syreeta_thomas_portfolio.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="app/views/pages/about.html.erb" />
     <ignored path=".idea/dataSources/bbb9de8f-71f4-4157-a581-4cbf203bcc5b.xml" />
@@ -421,7 +421,7 @@
       <option name="presentableId" value="Default" />
       <updated>1515874166911</updated>
       <workItem from="1515874169941" duration="6011000" />
-      <workItem from="1516040258417" duration="9796000" />
+      <workItem from="1516040258417" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="Adds scaffolding for Blog feature">
       <created>1515879904717</created>
@@ -455,7 +455,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15807000" />
+    <option name="totallyTimeSpent" value="16083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
