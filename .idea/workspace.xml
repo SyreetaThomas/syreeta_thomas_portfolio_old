@@ -1,29 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2c29e6d-d027-40ae-809b-8cf480d10302" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/blogs.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/blogs_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/blog.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/_blog.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/index.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/blogs/show.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180113214134_create_blogs.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/blogs_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/blogs.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/blog_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/system/blogs_test.rb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+    <list default="true" id="f2c29e6d-d027-40ae-809b-8cf480d10302" name="Default" comment="Remove scaffo">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/syreeta_thomas_portfolio.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/blogs.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/blogs_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/models/blog.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/_blog.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/bundle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/spring" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/update" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/yarn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config.ru" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180113214134_create_blogs.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/blogs_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/blogs.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/models/blog_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/system/blogs_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" afterPath="" />
     </list>
+    <ignored path="app/views/pages/about.html.erb" />
+    <ignored path=".idea/dataSources/bbb9de8f-71f4-4157-a581-4cbf203bcc5b.xml" />
+    <ignored path="app/views/pages/contact.html.erb" />
+    <ignored path="app/views/pages/home.html.erb" />
+    <ignored path="app/assets/javascripts/pages.coffee" />
+    <ignored path="app/assets/stylesheets/pages.scss" />
+    <ignored path="app/controllers/pages_controller.rb" />
+    <ignored path="test/controllers/pages_controller_test.rb" />
+    <ignored path="app/helpers/pages_helper.rb" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,29 +121,68 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="syreeta_thomas_portfolio_development: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="syreeta_thomas_portfolio_development: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="ar_internal_metadata: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="syreeta_thomas_portfolio_development: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="blogs: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="syreeta_thomas_portfolio_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="syreeta_thomas_portfolio_development: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="schema_migrations: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="36" />
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -63,11 +192,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="blogs" pinned="false" current-in-tab="false">
+        <entry file="das://table:/3aa598d/bbb9de8f-71f4-4157-a581-4cbf203bcc5b/syreeta_thomas_portfolio_development.blogs">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogs_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/blogs/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -82,6 +280,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -114,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,18 +325,67 @@
               <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="syreeta_thomas_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syreeta_thomas_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="data&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/routes.rb&#10;data&#9;FILE&#9;file:///Users/reetreet/Desktop/develop/syreeta_thomas_portfolio/config/database.yml" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,47 +515,166 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515874166911</updated>
-      <workItem from="1515874169941" duration="4197000" />
+      <workItem from="1515874169941" duration="6011000" />
+      <workItem from="1516040258417" duration="9110000" />
     </task>
+    <task id="LOCAL-00001" summary="Adds scaffolding for Blog feature">
+      <created>1515879904717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515879904718</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Migrates database for Blogs">
+      <created>1515880941524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515880941524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Built pages via controller generator">
+      <created>1516230439172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516230439172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove scaffold style sheet">
+      <created>1516238366204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516238366204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4197000" />
+    <option name="totallyTimeSpent" value="15121000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12947068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41791046" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26594302" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41791046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26458615" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds scaffolding for Blog feature" />
+    <MESSAGE value="Migrates database for Blogs" />
+    <MESSAGE value="Built pages via controller generator" />
+    <MESSAGE value="Remove scaffold style sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove scaffold style sheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbb9de8f-71f4-4157-a581-4cbf203bcc5b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3aa598d/bbb9de8f-71f4-4157-a581-4cbf203bcc5b/syreeta_thomas_portfolio_development.blogs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -319,10 +691,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbb9de8f-71f4-4157-a581-4cbf203bcc5b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="36" />
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -331,6 +719,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3aa598d/bbb9de8f-71f4-4157-a581-4cbf203bcc5b/syreeta_thomas_portfolio_development.blogs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding />
         </state>
       </provider>
